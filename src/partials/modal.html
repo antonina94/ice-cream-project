@@ -1,0 +1,54 @@
+<div class="backdrop is-hidden" data-modal>
+
+    <div class="modal">
+        <button data-modal-close type="button" class="modal__close">
+            <svg class="modal__svg">
+                <use href="images/icons.svg#icon-close-modal"></use>
+            </svg>
+        </button>
+
+        <form action="#" class="form">
+            <h3 class="modal__title">OrderinG</h3>
+            <div class="form-div">
+                <label for="name" class="form__label">Full name:</label>
+                <input id="name" type="text" class="form__input">
+                <svg class="form-svg">
+                    <use href="images/icons.svg#icon-name"></use>
+                </svg>
+            </div>
+            <div class="form-div">
+                <label for="tel" class="form__label">Contact number:</label>
+                <input id="tel" type="tel" class="form__input">
+                <svg class="form-svg">
+                    <use href="images/icons.svg#icon-phone"></use>
+                </svg>
+            </div>
+            <div class="form-div">
+                <label for="email" class="form__label">Contact email:</label>
+                <input id="email" type="email" class="form__input">
+                <svg class="form-svg">
+                    <use href="images/icons.svg#icon-mail4"></use>
+                </svg>
+            </div>
+            <div class="form-div">
+                <label for="choose" class="form__label">Choose Ise Cream:</label>
+                <select id="choose" class="form__select">
+                    <option>Wanilla</option>
+                    <option>Chocolite</option>
+                    <option>Fruit</option>
+                    <option>Mix</option>
+                </select>
+            </div>
+            <div class="form-div">
+                <label for="number" class="form__label">How much:</label>
+                <input id="number" type="number" class="form__input" min="1">
+                <svg class="form-svg">
+                    <use href="images/icons.svg#icon-basket"></use>
+                </svg>
+            </div>
+            <textarea class="form__aria" placeholder="What do you wish to enquire about?"></textarea>
+            <button class="btn form__button" type="submit">order</button>
+        </form>
+
+    </div>
+</div>

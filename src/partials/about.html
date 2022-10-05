@@ -1,0 +1,46 @@
+<section class="about" id="about">
+  <div class="container">
+    <p class="about__pre-title">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+    <div class="about__main-wrap">
+      <div class="about__left-wrap">
+        <img
+          srcset="
+            ./images/about/cow-mob-1x-min.png   280w,
+            ./images/about/cow-tab-1x-min.png   340w,
+            ./images/about/cow-desk-1x-min.png  516w,
+            ./images/about/cow-mob-2x-min.png   560w,
+            ./images/about/cow-tab-2x-min.png   680w,
+            ./images/about/cow-desk-2x-min.png 1032w
+          "
+          sizes="(min-width: 1280px) 680px, (min-width: 768px) 340px, (min-width: 480px) 280px, 100vw"
+          src="./images/about/cow-mob-1x-min.png"
+          alt="cow and mug with milk"
+        />
+      </div>
+      <div class="about__right-wrap">
+        <p class="about__text1">
+          Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+          lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
+        </p>
+        <p class="about__text2">
+          Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci
+          in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna
+          maximus. Cras massa nibh, tincidunt.
+        </p>
+        <p class="about__text3">Aliquam erat volutpat. Aenean accumsan.</p>
+        <input type="checkbox" id="read-more" class="about__checkbox-hidden visually-hidden" />
+        <p class="about__text-more">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate sit id magnam
+          ex omnis minus doloremque
+        </p>
+        <label for="read-more" class="about__read-more"
+          >Read <span class="more">more</span><span class="less">less</span>
+          <svg class="about__icon-button" width="6" height="8">
+            <use href="./images/icons.svg#icon-button"></use>
+          </svg>
+        </label>
+      </div>
+    </div>
+  </div>
+</section>

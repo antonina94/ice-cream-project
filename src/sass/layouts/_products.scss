@@ -1,0 +1,342 @@
+.products {
+    padding-top: 121px;
+    padding-bottom: 98px;
+    @media screen and (min-width: 768px) {
+      padding-top: 122px;
+      padding-bottom: 112px;
+    }
+    @media screen and (min-width: 1280px) {
+      padding-top: 127px;
+      padding-bottom: 119px;
+    }
+  }
+  
+  .products-text {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--other-FFA5BA);
+    margin-bottom: 15px;
+    @media screen and (min-width: 768px) {
+      font-size: 26px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 30px;
+    }
+  }
+  
+  .products-title {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+     margin-bottom: 31px;
+     @media screen and (min-width: 768px) {
+      margin-bottom: 39px;
+      font-size: 48px;
+     }
+     @media screen and (min-width: 1280px) {
+      margin-bottom: 49px;
+      font-size: 58px;
+     }
+  }
+  
+  .products-container {
+    width: 100%;
+    min-height: 485px;
+    background: #ffb8ca;
+  border-radius: 24px;
+  padding: 161px 40px 45px 40px;
+  @media screen and (min-width: 768px) {
+    padding: 152px 11px 40px 11px
+  }
+  @media screen and (min-width: 1280px) {
+    padding: 163px 44px 50px 44px;
+  }
+  }
+  
+  .container-ice-coffe {
+    background: #F0D1A5;
+  }
+  
+  .container-milkshakes {
+    background: #C2E297
+  }
+  
+  .products-list__item:not(:last-child) {
+    margin-bottom:17px;
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+  
+  .products-container__title {
+    font-family: Titan One;
+    font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+  }
+  }
+  
+  .products-container__title::after {
+    content: "...";
+    font-size: 26px;
+   color: #ffffff;
+   display: block;
+   margin-bottom: 30px;
+  margin-top: 30px;
+  }
+  
+  
+  .hide {
+    display: block;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+  
+  .products-container__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px){
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    margin-bottom: 62px;
+  }
+  }
+  
+  .products-list {
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    @media screen and (min-width: 1280px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+  }
+  
+  .ice-cream-item::before {
+    content: "";
+      display: block;
+      background-repeat: no-repeat;
+     background-position: center;
+     margin: 0 auto;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+      background-image: url(../images/products/ice-cream-mob-1x.png);
+      max-width: 249px;
+     height: 252px;
+     margin-bottom: -122px;
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+      background-image: url(../images/products/ice-cream-mob-2x.png);
+    }
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/products/ice-cream-tab-1x.png);
+        max-width: 220px;
+       height: 226px;
+       margin-bottom: -122px;
+       @media (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi),
+       (min-resolution: 2dppx) {
+        background-image: url(../images/products/ice-cream-tab-2x.png);
+       }
+    }
+      @media screen and (min-width: 1280px) {
+        background-image: url(../images/products/icecream-desk-1x.png);
+        max-width: 335px;
+       height: 335px;
+       margin-bottom: -122px;
+       @media (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi),
+       (min-resolution: 2dppx) {
+        background-image: url(../images/products/icecream-desk-2x.png);
+       }
+      }
+  }
+  
+  .ice-cofee-item::before {
+    content: "";
+      display: block;
+      background-repeat: no-repeat;
+     background-position: center;
+     margin: 0 auto;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/products/ice-cofee-mob-1x.png);
+      max-width: 249px;
+     height: 252px;
+     margin-bottom: -122px;
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+      background-image: url(../images/products/ice-cofee-mob-2x.png);
+    }
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/products/ice-cofee-tab-1x.png);
+        max-width: 220px;
+       height: 226px;
+       margin-bottom: -122px;
+       @media (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi),
+       (min-resolution: 2dppx) {
+        background-image: url(../images/products/ice-cofee-tab-2x.png);
+       }
+    }
+      @media screen and (min-width: 1280px) {
+        background-image: url(../images/products/icecofee-desk-1x.png);
+        max-width: 335px;
+       height: 335px;
+       margin-bottom: -122px;
+       @media (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi),
+       (min-resolution: 2dppx) {
+        background-image: url(../images/products/icecofee-desk-2x.png);
+       }
+      }
+  }
+  
+  .milkshakes-item::before {
+    content: "";
+      display: block;
+      background-repeat: no-repeat;
+     background-position: center;
+     margin: 0 auto;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    background-image: url(../images/products/milk-mob-1x.png);
+      max-width: 249px;
+     height: 252px;
+     margin-bottom: -122px;
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+      background-image: url(../images/products/milk-mob-2x.png);
+    }
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/products/milk-tab-1x.png);
+        max-width: 220px;
+       height: 226px;
+       margin-bottom: -122px;
+       @media (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi),
+       (min-resolution: 2dppx) {
+        background-image: url(../images/products/milk-tab-2x.png);
+       }
+    }
+      @media screen and (min-width: 1280px) {
+        background-image: url(../images/products/milk-desk-1x.png);
+        max-width: 335px;
+       height: 335px;
+       margin-bottom: -122px;
+       @media (min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi),
+       (min-resolution: 2dppx) {
+        background-image: url(../images/products/milk-desk-2x.png);
+       }
+      }
+  }
+  
+  
+  
+  .products-label {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: auto;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+  }
+  
+  .label-ice-cream:hover,
+  .label-ice-cream:focus {
+    background-color: #f84f7a ;
+  }
+  
+  .label-ice-cofee:hover,
+  .label-ice-cofee:focus {
+    background-color: #f5bd6e ;
+  }
+  
+  .label-milk:hover,
+  .label-milk:focus {
+    background-color: #9bcc5b ;
+  }
+  
+  
+  .products-icon {
+    fill: #d41443;
+  }
+  
+  
+  .product-text {
+    font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #d41443;
+  }
+  
+  .text-hidden {
+      display: none;
+  }
+  .checkbox-hidden {
+      appearance: none;
+  }
+  
+  .checkbox-hidden:checked ~ .text-hidden {
+      display: block;
+  }
+  .checkbox-hidden:checked ~ .products-label {
+      display: none;
+  }
+  .checkbox-hidden:checked ~ .products-label  {
+      display: flex;
+  }
